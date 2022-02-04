@@ -30,7 +30,7 @@ const Layout = () => {
                 className="text-sm text-gray-200 hover:bg-gray-700 px-3 py-2 rounded"
                 to="/"
               >
-                Root
+                HOME
               </Link>
               <Link
                 className="text-sm text-gray-200 hover:bg-gray-700 px-3 py-2 rounded"
