@@ -24,7 +24,7 @@ const Layout = () => {
           <div className="flex justify-between">
             <div className="">
               <span className="font-semibold text-xl tracking-tight text-white">
-                {serviceName}!!
+                {serviceName}
               </span>
               <Link
                 className="text-sm text-gray-200 hover:bg-gray-700 px-3 py-2 rounded"
@@ -38,6 +38,17 @@ const Layout = () => {
               >
                 ComponentA
               </Link>
+            </div>
+            <div className="">
+              <button
+                className="h-8 w-100 text-gray-200 hover:bg-gray-700 px-1 mr-15 rounded"
+                aria-hidden="true"
+                onClick={() => {
+                  modal()
+                }}
+              >
+                create world
+              </button>
             </div>
             <div className="">
               <LogoutIcon

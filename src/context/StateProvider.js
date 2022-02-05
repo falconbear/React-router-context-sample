@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from 'react'
 const StateContext = createContext({})
 
 export const StateProvider = ({ children }) => {
-  const serviceName = 'Super Web Site'
+  const serviceName = 'Hello World!'
   const [isLogin, setIsLogin] = useState(false)
   const [isOn, setIsOn] = useState(false)
 

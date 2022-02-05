@@ -62,11 +62,11 @@ const Modal = ({ setModalOn }) => {
                       as="h3"
                       className="text-lg leading-6 font-medium text-gray-900"
                     >
-                      Logout account
+                      Create New World
                     </Dialog.Title>
                     <div className="mt-2">
                       <p className="text-sm text-gray-500">
-                        ログアウトしますか？
+                        作成しますか
                       </p>
                     </div>
                   </div>
@@ -82,7 +82,7 @@ const Modal = ({ setModalOn }) => {
                     setIsLogin(false)
                   }}
                 >
-                  Logout
+                  Create
                 </button>
                 <button
                   type="button"
